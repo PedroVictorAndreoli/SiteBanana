@@ -1,0 +1,201 @@
+header {
+    height: 140px;
+    background-color: #0c9f0c;
+    background-image: url('fundo.png');
+    background-repeat: repeat;
+    border-color: black;
+  }
+  
+  .imagem{
+    max-width: 21.5rem;
+  }
+  
+  .form-control {
+    width: 500px;
+  }
+  
+  .btn-outline-success {
+    margin-left: 10px;
+  }
+
+  .carousel-item{
+    max-width: 55rem;
+  }
+
+  .botao{
+    background-color: #0c9f0c;
+  }
+body{
+    background-color: #f3da0a;
+    background-image: url('fundo2.png');
+    background-repeat: repeat;
+}
+
+.btn-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    border: none;
+    background-color: #0547c1;
+  }
+  .btn-divider {
+    width: 0.2rem;
+    height: 100%;
+    margin: 0.2rem;
+    background-color: black;
+  }
+  .btn-bar button {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+
+  .footer {
+    background-color: #f8f9fa;
+    padding: 5rem;
+  }
+  
+  .footer h4 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .footer ul li {
+    margin-bottom: 2px;
+  }
+  
+  .footer ul li a {
+    color: #212529;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #007bff;
+  }
+  
+  .footer hr {
+    border-top-color: #dfe3e8;
+  }
+  
+  .footer img {
+    max-width: 100%;
+  }
+
+  .container-main {
+    max-width: 55rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: whitesmoke;
+  }
+  
+  .card {
+    width: 30%;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 10rem;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+  }
+
+  .card-image img{
+    max-width: 90%;
+    max-height: 10rem;
+    margin-left: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .card-parcelas {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+
+  .product-carousel {
+    width: 60%;
+    float: left;
+  }
+  
+  .product-info {
+    width: 40%;
+    float: right;
+    padding: 20px;
+  }
+  
+  .product-info h2 {
+    margin-top: 0;
+  }
+  
+  .product-info p {
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .botao-compra{
+    background-color: #aeb822;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+
+  .pagina-produto{
+    background-color: #fff;
+  }
+
+
+  .price {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .errofont{
+    color: #f00;
+}
+
+.erroinput{
+    border: solid 1px #F00;
+}

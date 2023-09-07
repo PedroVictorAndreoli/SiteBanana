@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <header id="appHeader">
+
+   
+    
+  </header>
+      <main>
+
+      <div class="btn-bar" id="btnBar">
+          
+      </div>
+
+      <div class="container pagina-produto">
+        <div class="d-flex justify-content-center "> 
+        <form id="form">
+          <h2>Cadastre-se</h2>
+          <div class="form-group">
+            <label>Nome:</label>
+            <input type="text" class="form-control required" id="name" placeholder="Digite seu nome" >
+            <span class="error-message" id="erro-nome"></span>
+          </div>
+          <div class="form-group">
+            <label>E-mail:</label>
+            <input type="text" class="form-control required" name="email" id="email" placeholder="Digite seu e-mail">
+            <span class="error-message" id="erro-email"></span>
+          </div>
+          <div class="form-group">
+            <label>Senha:</label>
+            <input type="password" class="form-control required" name="senha" id="senha" placeholder="Digite sua senha">
+            <span class="error-message" id="erro-senha"></span>
+          </div>
+          <div class="form-group">
+            <label>Banana Favorita:</label>
+            <input type="text" class="form-control required" id="banana"  name="banana" placeholder="Digite sua banana favorita" >
+            <span class="error-message" id="erro-nome"></span>
+          </div>
+          <button type="submit" class="btn btn-warning ">Enviar</button>
+        </form>
+        </div>
+      </div>
+
+
+    </main>
+
+    <footer class="footer" id="appFooter">
+       
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js">
+    </script>
+    <script src="./js/app.js" type="module"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
