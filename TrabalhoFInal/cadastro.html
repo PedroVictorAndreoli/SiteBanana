@@ -17,14 +17,13 @@
   </header>
       <main>
 
-      <div class="btn-bar" id="btnBar">
+      <div class="btn-bar">
           
       </div>
 
-      <div class="container pagina-produto">
-        <div class="d-flex justify-content-center "> 
+      <div class="container">
+        <h2>Cadastre-se</h2>
         <form id="form">
-          <h2>Cadastre-se</h2>
           <div class="form-group">
             <label>Nome:</label>
             <input type="text" class="form-control required" id="name" placeholder="Digite seu nome" >
@@ -32,22 +31,21 @@
           </div>
           <div class="form-group">
             <label>E-mail:</label>
-            <input type="text" class="form-control required" name="email" id="email" placeholder="Digite seu e-mail">
+            <input type="text" class="form-control required" id="email"name="email" placeholder="Digite seu e-mail">
             <span class="error-message" id="erro-email"></span>
           </div>
           <div class="form-group">
             <label>Senha:</label>
-            <input type="password" class="form-control required" name="senha" id="senha" placeholder="Digite sua senha">
+            <input type="password" class="form-control required" id="senha" name="senha"  placeholder="Digite sua senha">
             <span class="error-message" id="erro-senha"></span>
           </div>
           <div class="form-group">
-            <label>Banana Favorita:</label>
-            <input type="text" class="form-control required" id="banana"  name="banana" placeholder="Digite sua banana favorita" >
-            <span class="error-message" id="erro-nome"></span>
+            <label>Confirme a Senha:</label>
+            <input type="password" class="form-control required" id="senha" placeholder="Confirme a senha">
+            <span class="error-message" id="erro-senha"></span>
           </div>
-          <button type="submit" class="btn btn-warning ">Enviar</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
-        </div>
       </div>
 
 

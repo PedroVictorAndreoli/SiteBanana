@@ -13,10 +13,13 @@ export const headerComponent = function(){
        </form>
        <ul class="navbar-nav ms-auto">
          <li class="nav-item">
-           <a class="nav-link text-black border border-dark botao" href="#">Cadastro</a>
+           <a class="nav-link text-black border border-dark botao" href="./cadastro.html">Cadastro</a>
          </li>
          <li class="nav-item">
            <a class="nav-link text-black border border-dark botao " href="#">Login</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link text-black border border-dark botao " href="./carrinho.html">Carrinho</a>
          </li>
        </ul>
      </div>

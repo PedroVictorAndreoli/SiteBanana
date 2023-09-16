@@ -8,13 +8,13 @@ const messages = {
     emptyfield: "Preencha o campo {field}",
     invalidEmail: "Informe um endereço de email válido. ",
     invalidLegth: "Tamanho de senha invalido",
-    invalidPassword: "Insira pelo menos um caractere especial",
-    invalidBanana: "Sua banana favorita precisa ter a palavra banana em seu texto"
+    invalidPassword: "Insira pelo menos um caractere especial"
 }
 
 function validateInput(input, spanError) {
     let error = false;
     let message;
+    let especial = "/!@#$%^&*(),.?:{}|<>/";
     if (input.value.trim() === '') {
         error = true;
         message = messages.emptyfield.replace('{field}', input.name);
@@ -24,12 +24,9 @@ function validateInput(input, spanError) {
     }else if(input.name=='senha' && input.value.length<8){
         error=true;
         message= messages.invalidLegth;
-    }else if(input.name=='senha' && !/[!@#$%^&*(),.?":{}|<>]/.test(input.value)){
+    }else if(input.name=='senha' && especial.test(input.value)){
         error=true;
         message= messages.invalidPassword;
-    }else if(input.name=='banana' && !/banana/i.test(input.value)){
-        error=true;
-        message= messages.invalidBanana;
     }
 
     if (error) {
